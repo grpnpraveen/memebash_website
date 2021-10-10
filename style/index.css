@@ -134,6 +134,12 @@
  .btn1{
    margin-left: 15%;
  }
+ .btn1 a{
+   transition-property: all;
+ }
+ .btn1 a:hover{
+   transition-delay: 30s;
+ }
   .btngroup button:hover{
     background-color: #0082e6;
     transition-duration: 1.5s;
